@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <!-- This is the header which will contain links and my name. -->
+      <div id="name_links">  
+        <div class="row">
+          <div class="col-sm">
+            <nav class="navbar navbar-light bg-light">
+              <span class="navbar-brand mb-0 h1">Robert Koskulics</span>
+            </nav>
+          </div>
+        <div class="col-sm">
+            
+            <a href="./index.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./portfolio.html">Portfolio</a>
+            
+        </div>
+      </div>
+      <div class="row">
+      	<div id="contact-info">
+
+			<h2>Contact</h2>
+
+				<form action="about:blank">
+					Name <br><textarea name="Name" rows="1" cols="75"></textarea><br>
+					Email <br><textarea name="Email" rows="1" cols="75"></textarea><br>
+					Message <br><textarea name="message" rows="15" cols="75">Think of something briallant to say here.</textarea><br>
+					<input type="button" value="Submit">
+				</form>
+		</div>
+      </div>
+     	<div class="card-footer text-muted">
+      		<div id="foot">
+        		&copyCopyright 2017 Robert Koskulics
+      		</div>      
+  		</div>
+</body>
+<style type="text/css">
+	h1{
+  position: absolute;
+  left: 150px;
+  background: #4aaaa5;
+  color: #feffff;
+  margin: 10px;
+  padding: 21px;
+  width: 250px;
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+  }
+  #name_links{
+  height: 88px;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+  text-align: center;
+  }
+  a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    }
+  body{
+  background-image: url(./assets/images/green_cup.png);
+}
+#contact-info{
+	background-color: #ffffff;
+	width: 625px;
+	color: #cccccc;
+	font-size:120%;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	padding:10px;
+	margin:10px;
+	position: absolute;
+	left:150px;
+}
+form{
+	padding-left:25px;
+	padding-right: 25px;
+}
+
+input{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 5px 12px 5px 12px;
+}
+#foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #666666;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color:#4aaaa5;
+    z-index: 3;
+}
+</style>
+</html>
